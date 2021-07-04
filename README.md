@@ -14,12 +14,12 @@ Development application:
 ### `npm start`
 
 ### Config
-Keyframe rate - 500ms
-Image/Video quality - 80%
-Image format - jpeg
-Video format - mp4
-Resolution - 640x480
-Video duration - 15s
+Keyframe rate - 500ms  
+Image/Video quality - 80%  
+Image format - jpeg  
+Video format - mp4  
+Resolution - 640x480  
+Video duration - 15s  
 
 ### What could be improved
 Streams could be more performant than the method of first saving the images and videos and then serving the output video. 
