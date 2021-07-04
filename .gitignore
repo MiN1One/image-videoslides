@@ -8,6 +8,10 @@
 # testing
 /coverage
 
+# generated vids & images
+/server/public/video/*
+/server/public/images/*
+
 # production
 /build
 

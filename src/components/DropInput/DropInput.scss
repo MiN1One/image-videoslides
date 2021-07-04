@@ -1,0 +1,70 @@
+@use '../../assets/sass/abstracts' as *;; 
+
+.dropinput {
+  padding: 10rem 25rem;
+  border: 1px dashed $color-primary;
+  border-radius: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: $color-grace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+
+  &--active {
+    padding: 0;
+    border-style: solid;
+    width: 61.2rem;
+    height: 36.4rem;
+  }
+
+  &__video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__btn-main {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    left: calc(50% + 3.15rem);
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-width: 3.15rem 4.5rem 3.15rem 4.5rem;
+    border-style: solid;
+    border-color: transparent transparent transparent $color-primary;
+    transform-origin: center;
+    transition: transform .3s ease;
+
+    &:hover {
+      transform: scale(1.025) translate(-50%, -50%);
+    }
+  }
+
+  &__btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    z-index: 1;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 .25rem .75rem rgba(#444, .2);
+  }
+
+  &__icon {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: #444;
+    stroke: #444;
+  }
+}

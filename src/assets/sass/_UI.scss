@@ -1,0 +1,32 @@
+@use './abstracts';
+
+.logo {
+  font-weight: 700;
+  font-size: 3.5rem;
+  color: $color-primary;
+  margin-bottom: 5.2rem;
+
+  &__high {
+    font-weight: 900;
+    font-size: 4.2rem;
+  }
+}
+
+.loader {
+  display: inline-block;
+  width: 6.5rem;
+  height: 6.5rem;
+  border: .3rem solid transparent;
+  border-radius: 50%;
+  border-top-color: $color-primary;
+  border-bottom-color: $color-primary;
+  border-left-color: $color-primary;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
