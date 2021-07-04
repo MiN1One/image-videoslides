@@ -9,9 +9,9 @@
 /coverage
 
 # generated vids & images
-/server/public/video/*
-/server/public/images/*
-/server/public/images_raw/*
+# /server/public/video/*
+# /server/public/images/*
+# /server/public/images_raw/*
 
 # production
 /build

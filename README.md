@@ -37,4 +37,4 @@ and that could be even more problematic when there are many users accessing the 
 PS. Images can be compressed and formatted using ffmpeg. (later realised) 
 4) There was no need to create stream, browser gets the video as a static file
 
-## TIMING RESULTS can be found in the console
+#### TIMING RESULTS can be found in the console
